@@ -27,6 +27,7 @@ button {
   border: 2px solid white;
   color: white;
   padding: 20px 60px;
+  margin-top: 20px;
 }
 
 .section {
@@ -64,6 +65,9 @@ button {
 .footer {
   display: flex;
   justify-content: center;
+  align-items: center;
+  font-size: x-small;
+  height: 100px;
 }
 
 #sec-1 {
@@ -94,4 +98,8 @@ button {
 
 #cont-1 {
   align-self: flex-end;
+}
+
+#gray-spacex {
+  color: gray;
 }
